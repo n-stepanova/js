@@ -14,6 +14,10 @@ function checkPositiveOrNegative(number){
     console.log(numberType);
 }
 
-let n = 0;
+function generateRandomNumber(){
+    return Math.floor(Math.random()*(100-(-100))-100);
+}
+
+let n = generateRandomNumber();
 showTaskAndNumber(n);
 checkPositiveOrNegative(n);
