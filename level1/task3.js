@@ -1,5 +1,3 @@
-const numbers = [3,6,23];
-
 console.log("Дано число. Проверьте, четное оно или нет.");
 
 function checkNumber(num){
@@ -9,10 +7,9 @@ function checkNumber(num){
     return("Четное");
 }
 
-function getRandomNumberFromArray(arr){
-    return(Math.floor(Math.random()*(arr.length-0)+0));
+function getRandomNumber(){
+    return(Math.floor(Math.random()*(100-0)+0));
 }
 
-
-const num = numbers[getRandomNumberFromArray(numbers)];
+const num = getRandomNumber();
 console.log("Число: " + num + " - " + checkNumber(num));
