@@ -15,7 +15,7 @@ function checkPositiveOrNegative(number){
 }
 
 function generateRandomNumber(){
-    return Math.floor(Math.random()*(100-(-100))-100);
+    return Math.floor(Math.random()*(100-(-100))-100); //диапазон от -100 до 100
 }
 
 let n = generateRandomNumber();

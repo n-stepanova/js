@@ -2,12 +2,12 @@
 const strs = ["hello", "abracadabra"] ;
 
 function getStringSize(str){
-    console.log("Дана строка. Выведите в консоль длину этой строки.");
+    console.log("Выведите в консоль длину этой строки.");
     return(str.length);
 }
 
 function getLastCharOfTheString(str){
-    console.log("Дана строка. Выведите в консоль последний символ строки.");
+    console.log("Выведите в консоль последний символ строки.");
     return(str[str.length-1]);
 }
 
@@ -22,6 +22,6 @@ function show(value){
 
 const str = strs[getRandomStringFromArray(strs)];
 
-show(str);
+show("Дана строка: "+str);
 show(getStringSize(str));
 show(getLastCharOfTheString(str));
